@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69B29C5B1BC61B04004402F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B29C5A1BC61B04004402F9 /* main.m */; };
+		69B29C5E1BC61B04004402F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B29C5D1BC61B04004402F9 /* AppDelegate.m */; };
+		69B29C611BC61B04004402F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B29C601BC61B04004402F9 /* ViewController.m */; };
+		69B29C641BC61B04004402F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B29C621BC61B04004402F9 /* Main.storyboard */; };
+		69B29C661BC61B04004402F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69B29C651BC61B04004402F9 /* Assets.xcassets */; };
+		69B29C691BC61B04004402F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69B29C671BC61B04004402F9 /* LaunchScreen.storyboard */; };
+		69B29C741BC61B04004402F9 /* CollectionViewBookEffectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B29C731BC61B04004402F9 /* CollectionViewBookEffectTests.m */; };
+		69B29C7F1BC61B04004402F9 /* CollectionViewBookEffectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B29C7E1BC61B04004402F9 /* CollectionViewBookEffectUITests.m */; };
+		69B29C8F1BC61C27004402F9 /* HYBBookEffectLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B29C8E1BC61C27004402F9 /* HYBBookEffectLayout.m */; settings = {ASSET_TAGS = (); }; };
+		69B29C901BC61C27004402F9 /* HYBBookEffectLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B29C8E1BC61C27004402F9 /* HYBBookEffectLayout.m */; settings = {ASSET_TAGS = (); }; };
+		69B29C911BC61C27004402F9 /* HYBBookEffectLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B29C8E1BC61C27004402F9 /* HYBBookEffectLayout.m */; settings = {ASSET_TAGS = (); }; };
+		69B29C941BC64A4A004402F9 /* HYBBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B29C931BC64A4A004402F9 /* HYBBookCell.m */; settings = {ASSET_TAGS = (); }; };
+		69B29C951BC64A4A004402F9 /* HYBBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B29C931BC64A4A004402F9 /* HYBBookCell.m */; settings = {ASSET_TAGS = (); }; };
+		69B29C961BC64A4A004402F9 /* HYBBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B29C931BC64A4A004402F9 /* HYBBookCell.m */; settings = {ASSET_TAGS = (); }; };
+		69B29C991BC64C05004402F9 /* HYBBookCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B29C981BC64C05004402F9 /* HYBBookCollectionView.m */; settings = {ASSET_TAGS = (); }; };
+		69B29C9A1BC64C05004402F9 /* HYBBookCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B29C981BC64C05004402F9 /* HYBBookCollectionView.m */; settings = {ASSET_TAGS = (); }; };
+		69B29C9B1BC64C05004402F9 /* HYBBookCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B29C981BC64C05004402F9 /* HYBBookCollectionView.m */; settings = {ASSET_TAGS = (); }; };
+		69B29CAA1BC64C48004402F9 /* 白羊座1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29C9C1BC64C48004402F9 /* 白羊座1.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CAB1BC64C48004402F9 /* 白羊座1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29C9C1BC64C48004402F9 /* 白羊座1.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CAC1BC64C48004402F9 /* 白羊座1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29C9C1BC64C48004402F9 /* 白羊座1.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CAD1BC64C48004402F9 /* 处女座6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29C9D1BC64C48004402F9 /* 处女座6.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CAE1BC64C48004402F9 /* 处女座6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29C9D1BC64C48004402F9 /* 处女座6.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CAF1BC64C48004402F9 /* 处女座6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29C9D1BC64C48004402F9 /* 处女座6.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CB01BC64C48004402F9 /* 封底.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29C9E1BC64C48004402F9 /* 封底.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CB11BC64C48004402F9 /* 封底.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29C9E1BC64C48004402F9 /* 封底.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CB21BC64C48004402F9 /* 封底.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29C9E1BC64C48004402F9 /* 封底.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CB31BC64C48004402F9 /* 封面.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29C9F1BC64C48004402F9 /* 封面.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CB41BC64C48004402F9 /* 封面.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29C9F1BC64C48004402F9 /* 封面.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CB51BC64C48004402F9 /* 封面.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29C9F1BC64C48004402F9 /* 封面.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CB61BC64C48004402F9 /* 金牛座2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA01BC64C48004402F9 /* 金牛座2.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CB71BC64C48004402F9 /* 金牛座2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA01BC64C48004402F9 /* 金牛座2.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CB81BC64C48004402F9 /* 金牛座2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA01BC64C48004402F9 /* 金牛座2.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CB91BC64C48004402F9 /* 巨蟹座4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA11BC64C48004402F9 /* 巨蟹座4.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CBA1BC64C48004402F9 /* 巨蟹座4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA11BC64C48004402F9 /* 巨蟹座4.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CBB1BC64C48004402F9 /* 巨蟹座4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA11BC64C48004402F9 /* 巨蟹座4.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CBC1BC64C48004402F9 /* 魔蝎座10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA21BC64C48004402F9 /* 魔蝎座10.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CBD1BC64C48004402F9 /* 魔蝎座10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA21BC64C48004402F9 /* 魔蝎座10.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CBE1BC64C48004402F9 /* 魔蝎座10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA21BC64C48004402F9 /* 魔蝎座10.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CBF1BC64C48004402F9 /* 射手座9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA31BC64C48004402F9 /* 射手座9.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CC01BC64C48004402F9 /* 射手座9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA31BC64C48004402F9 /* 射手座9.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CC11BC64C48004402F9 /* 射手座9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA31BC64C48004402F9 /* 射手座9.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CC21BC64C48004402F9 /* 狮子座5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA41BC64C48004402F9 /* 狮子座5.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CC31BC64C48004402F9 /* 狮子座5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA41BC64C48004402F9 /* 狮子座5.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CC41BC64C48004402F9 /* 狮子座5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA41BC64C48004402F9 /* 狮子座5.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CC51BC64C48004402F9 /* 双鱼座12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA51BC64C48004402F9 /* 双鱼座12.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CC61BC64C48004402F9 /* 双鱼座12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA51BC64C48004402F9 /* 双鱼座12.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CC71BC64C48004402F9 /* 双鱼座12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA51BC64C48004402F9 /* 双鱼座12.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CC81BC64C48004402F9 /* 双子座3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA61BC64C48004402F9 /* 双子座3.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CC91BC64C48004402F9 /* 双子座3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA61BC64C48004402F9 /* 双子座3.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CCA1BC64C48004402F9 /* 双子座3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA61BC64C48004402F9 /* 双子座3.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CCB1BC64C48004402F9 /* 水瓶座11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA71BC64C48004402F9 /* 水瓶座11.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CCC1BC64C48004402F9 /* 水瓶座11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA71BC64C48004402F9 /* 水瓶座11.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CCD1BC64C48004402F9 /* 水瓶座11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA71BC64C48004402F9 /* 水瓶座11.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CCE1BC64C48004402F9 /* 天平座7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA81BC64C48004402F9 /* 天平座7.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CCF1BC64C48004402F9 /* 天平座7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA81BC64C48004402F9 /* 天平座7.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CD01BC64C48004402F9 /* 天平座7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA81BC64C48004402F9 /* 天平座7.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CD11BC64C48004402F9 /* 天蝎座8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA91BC64C48004402F9 /* 天蝎座8.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CD21BC64C48004402F9 /* 天蝎座8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA91BC64C48004402F9 /* 天蝎座8.jpg */; settings = {ASSET_TAGS = (); }; };
+		69B29CD31BC64C48004402F9 /* 天蝎座8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69B29CA91BC64C48004402F9 /* 天蝎座8.jpg */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69B29C701BC61B04004402F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69B29C4E1BC61B04004402F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69B29C551BC61B04004402F9;
+			remoteInfo = CollectionViewBookEffect;
+		};
+		69B29C7B1BC61B04004402F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69B29C4E1BC61B04004402F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69B29C551BC61B04004402F9;
+			remoteInfo = CollectionViewBookEffect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69B29C561BC61B04004402F9 /* CollectionViewBookEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewBookEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B29C5A1BC61B04004402F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69B29C5C1BC61B04004402F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		69B29C5D1BC61B04004402F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		69B29C5F1BC61B04004402F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		69B29C601BC61B04004402F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		69B29C631BC61B04004402F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69B29C651BC61B04004402F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69B29C681BC61B04004402F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69B29C6A1BC61B04004402F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69B29C6F1BC61B04004402F9 /* CollectionViewBookEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewBookEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B29C731BC61B04004402F9 /* CollectionViewBookEffectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewBookEffectTests.m; sourceTree = "<group>"; };
+		69B29C751BC61B04004402F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69B29C7A1BC61B04004402F9 /* CollectionViewBookEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewBookEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B29C7E1BC61B04004402F9 /* CollectionViewBookEffectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewBookEffectUITests.m; sourceTree = "<group>"; };
+		69B29C801BC61B04004402F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69B29C8D1BC61C27004402F9 /* HYBBookEffectLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBBookEffectLayout.h; sourceTree = "<group>"; };
+		69B29C8E1BC61C27004402F9 /* HYBBookEffectLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBBookEffectLayout.m; sourceTree = "<group>"; };
+		69B29C921BC64A4A004402F9 /* HYBBookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBBookCell.h; sourceTree = "<group>"; };
+		69B29C931BC64A4A004402F9 /* HYBBookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBBookCell.m; sourceTree = "<group>"; };
+		69B29C971BC64C05004402F9 /* HYBBookCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBBookCollectionView.h; sourceTree = "<group>"; };
+		69B29C981BC64C05004402F9 /* HYBBookCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBBookCollectionView.m; sourceTree = "<group>"; };
+		69B29C9C1BC64C48004402F9 /* 白羊座1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "白羊座1.jpg"; sourceTree = "<group>"; };
+		69B29C9D1BC64C48004402F9 /* 处女座6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "处女座6.jpg"; sourceTree = "<group>"; };
+		69B29C9E1BC64C48004402F9 /* 封底.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "封底.jpg"; sourceTree = "<group>"; };
+		69B29C9F1BC64C48004402F9 /* 封面.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "封面.jpg"; sourceTree = "<group>"; };
+		69B29CA01BC64C48004402F9 /* 金牛座2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "金牛座2.jpg"; sourceTree = "<group>"; };
+		69B29CA11BC64C48004402F9 /* 巨蟹座4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "巨蟹座4.jpg"; sourceTree = "<group>"; };
+		69B29CA21BC64C48004402F9 /* 魔蝎座10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "魔蝎座10.jpg"; sourceTree = "<group>"; };
+		69B29CA31BC64C48004402F9 /* 射手座9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "射手座9.jpg"; sourceTree = "<group>"; };
+		69B29CA41BC64C48004402F9 /* 狮子座5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "狮子座5.jpg"; sourceTree = "<group>"; };
+		69B29CA51BC64C48004402F9 /* 双鱼座12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "双鱼座12.jpg"; sourceTree = "<group>"; };
+		69B29CA61BC64C48004402F9 /* 双子座3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "双子座3.jpg"; sourceTree = "<group>"; };
+		69B29CA71BC64C48004402F9 /* 水瓶座11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "水瓶座11.jpg"; sourceTree = "<group>"; };
+		69B29CA81BC64C48004402F9 /* 天平座7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "天平座7.jpg"; sourceTree = "<group>"; };
+		69B29CA91BC64C48004402F9 /* 天蝎座8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "天蝎座8.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69B29C531BC61B04004402F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B29C6C1BC61B04004402F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B29C771BC61B04004402F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69B29C4D1BC61B04004402F9 = {
+			isa = PBXGroup;
+			children = (
+				69B29C581BC61B04004402F9 /* CollectionViewBookEffect */,
+				69B29C721BC61B04004402F9 /* CollectionViewBookEffectTests */,
+				69B29C7D1BC61B04004402F9 /* CollectionViewBookEffectUITests */,
+				69B29C571BC61B04004402F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69B29C571BC61B04004402F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69B29C561BC61B04004402F9 /* CollectionViewBookEffect.app */,
+				69B29C6F1BC61B04004402F9 /* CollectionViewBookEffectTests.xctest */,
+				69B29C7A1BC61B04004402F9 /* CollectionViewBookEffectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69B29C581BC61B04004402F9 /* CollectionViewBookEffect */ = {
+			isa = PBXGroup;
+			children = (
+				69B29C8C1BC61BF9004402F9 /* BookEffectLayout */,
+				69B29C5C1BC61B04004402F9 /* AppDelegate.h */,
+				69B29C5D1BC61B04004402F9 /* AppDelegate.m */,
+				69B29C5F1BC61B04004402F9 /* ViewController.h */,
+				69B29C601BC61B04004402F9 /* ViewController.m */,
+				69B29C621BC61B04004402F9 /* Main.storyboard */,
+				69B29C651BC61B04004402F9 /* Assets.xcassets */,
+				69B29C671BC61B04004402F9 /* LaunchScreen.storyboard */,
+				69B29C6A1BC61B04004402F9 /* Info.plist */,
+				69B29C591BC61B04004402F9 /* Supporting Files */,
+			);
+			path = CollectionViewBookEffect;
+			sourceTree = "<group>";
+		};
+		69B29C591BC61B04004402F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69B29C9C1BC64C48004402F9 /* 白羊座1.jpg */,
+				69B29C9D1BC64C48004402F9 /* 处女座6.jpg */,
+				69B29C9E1BC64C48004402F9 /* 封底.jpg */,
+				69B29C9F1BC64C48004402F9 /* 封面.jpg */,
+				69B29CA01BC64C48004402F9 /* 金牛座2.jpg */,
+				69B29CA11BC64C48004402F9 /* 巨蟹座4.jpg */,
+				69B29CA21BC64C48004402F9 /* 魔蝎座10.jpg */,
+				69B29CA31BC64C48004402F9 /* 射手座9.jpg */,
+				69B29CA41BC64C48004402F9 /* 狮子座5.jpg */,
+				69B29CA51BC64C48004402F9 /* 双鱼座12.jpg */,
+				69B29CA61BC64C48004402F9 /* 双子座3.jpg */,
+				69B29CA71BC64C48004402F9 /* 水瓶座11.jpg */,
+				69B29CA81BC64C48004402F9 /* 天平座7.jpg */,
+				69B29CA91BC64C48004402F9 /* 天蝎座8.jpg */,
+				69B29C5A1BC61B04004402F9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69B29C721BC61B04004402F9 /* CollectionViewBookEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				69B29C731BC61B04004402F9 /* CollectionViewBookEffectTests.m */,
+				69B29C751BC61B04004402F9 /* Info.plist */,
+			);
+			path = CollectionViewBookEffectTests;
+			sourceTree = "<group>";
+		};
+		69B29C7D1BC61B04004402F9 /* CollectionViewBookEffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69B29C7E1BC61B04004402F9 /* CollectionViewBookEffectUITests.m */,
+				69B29C801BC61B04004402F9 /* Info.plist */,
+			);
+			path = CollectionViewBookEffectUITests;
+			sourceTree = "<group>";
+		};
+		69B29C8C1BC61BF9004402F9 /* BookEffectLayout */ = {
+			isa = PBXGroup;
+			children = (
+				69B29C8D1BC61C27004402F9 /* HYBBookEffectLayout.h */,
+				69B29C8E1BC61C27004402F9 /* HYBBookEffectLayout.m */,
+				69B29C921BC64A4A004402F9 /* HYBBookCell.h */,
+				69B29C931BC64A4A004402F9 /* HYBBookCell.m */,
+				69B29C971BC64C05004402F9 /* HYBBookCollectionView.h */,
+				69B29C981BC64C05004402F9 /* HYBBookCollectionView.m */,
+			);
+			name = BookEffectLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69B29C551BC61B04004402F9 /* CollectionViewBookEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69B29C831BC61B04004402F9 /* Build configuration list for PBXNativeTarget "CollectionViewBookEffect" */;
+			buildPhases = (
+				69B29C521BC61B04004402F9 /* Sources */,
+				69B29C531BC61B04004402F9 /* Frameworks */,
+				69B29C541BC61B04004402F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollectionViewBookEffect;
+			productName = CollectionViewBookEffect;
+			productReference = 69B29C561BC61B04004402F9 /* CollectionViewBookEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69B29C6E1BC61B04004402F9 /* CollectionViewBookEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69B29C861BC61B04004402F9 /* Build configuration list for PBXNativeTarget "CollectionViewBookEffectTests" */;
+			buildPhases = (
+				69B29C6B1BC61B04004402F9 /* Sources */,
+				69B29C6C1BC61B04004402F9 /* Frameworks */,
+				69B29C6D1BC61B04004402F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69B29C711BC61B04004402F9 /* PBXTargetDependency */,
+			);
+			name = CollectionViewBookEffectTests;
+			productName = CollectionViewBookEffectTests;
+			productReference = 69B29C6F1BC61B04004402F9 /* CollectionViewBookEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69B29C791BC61B04004402F9 /* CollectionViewBookEffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69B29C891BC61B04004402F9 /* Build configuration list for PBXNativeTarget "CollectionViewBookEffectUITests" */;
+			buildPhases = (
+				69B29C761BC61B04004402F9 /* Sources */,
+				69B29C771BC61B04004402F9 /* Frameworks */,
+				69B29C781BC61B04004402F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69B29C7C1BC61B04004402F9 /* PBXTargetDependency */,
+			);
+			name = CollectionViewBookEffectUITests;
+			productName = CollectionViewBookEffectUITests;
+			productReference = 69B29C7A1BC61B04004402F9 /* CollectionViewBookEffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69B29C4E1BC61B04004402F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = huangyibiao;
+				TargetAttributes = {
+					69B29C551BC61B04004402F9 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					69B29C6E1BC61B04004402F9 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 69B29C551BC61B04004402F9;
+					};
+					69B29C791BC61B04004402F9 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 69B29C551BC61B04004402F9;
+					};
+				};
+			};
+			buildConfigurationList = 69B29C511BC61B04004402F9 /* Build configuration list for PBXProject "CollectionViewBookEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69B29C4D1BC61B04004402F9;
+			productRefGroup = 69B29C571BC61B04004402F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69B29C551BC61B04004402F9 /* CollectionViewBookEffect */,
+				69B29C6E1BC61B04004402F9 /* CollectionViewBookEffectTests */,
+				69B29C791BC61B04004402F9 /* CollectionViewBookEffectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69B29C541BC61B04004402F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B29CB31BC64C48004402F9 /* 封面.jpg in Resources */,
+				69B29CCE1BC64C48004402F9 /* 天平座7.jpg in Resources */,
+				69B29CC81BC64C48004402F9 /* 双子座3.jpg in Resources */,
+				69B29C691BC61B04004402F9 /* LaunchScreen.storyboard in Resources */,
+				69B29CD11BC64C48004402F9 /* 天蝎座8.jpg in Resources */,
+				69B29CAD1BC64C48004402F9 /* 处女座6.jpg in Resources */,
+				69B29CC51BC64C48004402F9 /* 双鱼座12.jpg in Resources */,
+				69B29C661BC61B04004402F9 /* Assets.xcassets in Resources */,
+				69B29CBC1BC64C48004402F9 /* 魔蝎座10.jpg in Resources */,
+				69B29CB91BC64C48004402F9 /* 巨蟹座4.jpg in Resources */,
+				69B29CCB1BC64C48004402F9 /* 水瓶座11.jpg in Resources */,
+				69B29CB61BC64C48004402F9 /* 金牛座2.jpg in Resources */,
+				69B29CB01BC64C48004402F9 /* 封底.jpg in Resources */,
+				69B29CAA1BC64C48004402F9 /* 白羊座1.jpg in Resources */,
+				69B29CC21BC64C48004402F9 /* 狮子座5.jpg in Resources */,
+				69B29CBF1BC64C48004402F9 /* 射手座9.jpg in Resources */,
+				69B29C641BC61B04004402F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B29C6D1BC61B04004402F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B29CBD1BC64C48004402F9 /* 魔蝎座10.jpg in Resources */,
+				69B29CB41BC64C48004402F9 /* 封面.jpg in Resources */,
+				69B29CBA1BC64C48004402F9 /* 巨蟹座4.jpg in Resources */,
+				69B29CB11BC64C48004402F9 /* 封底.jpg in Resources */,
+				69B29CAB1BC64C48004402F9 /* 白羊座1.jpg in Resources */,
+				69B29CC91BC64C48004402F9 /* 双子座3.jpg in Resources */,
+				69B29CAE1BC64C48004402F9 /* 处女座6.jpg in Resources */,
+				69B29CD21BC64C48004402F9 /* 天蝎座8.jpg in Resources */,
+				69B29CC31BC64C48004402F9 /* 狮子座5.jpg in Resources */,
+				69B29CC01BC64C48004402F9 /* 射手座9.jpg in Resources */,
+				69B29CC61BC64C48004402F9 /* 双鱼座12.jpg in Resources */,
+				69B29CCF1BC64C48004402F9 /* 天平座7.jpg in Resources */,
+				69B29CB71BC64C48004402F9 /* 金牛座2.jpg in Resources */,
+				69B29CCC1BC64C48004402F9 /* 水瓶座11.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B29C781BC61B04004402F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B29CBE1BC64C48004402F9 /* 魔蝎座10.jpg in Resources */,
+				69B29CB51BC64C48004402F9 /* 封面.jpg in Resources */,
+				69B29CBB1BC64C48004402F9 /* 巨蟹座4.jpg in Resources */,
+				69B29CB21BC64C48004402F9 /* 封底.jpg in Resources */,
+				69B29CAC1BC64C48004402F9 /* 白羊座1.jpg in Resources */,
+				69B29CCA1BC64C48004402F9 /* 双子座3.jpg in Resources */,
+				69B29CAF1BC64C48004402F9 /* 处女座6.jpg in Resources */,
+				69B29CD31BC64C48004402F9 /* 天蝎座8.jpg in Resources */,
+				69B29CC41BC64C48004402F9 /* 狮子座5.jpg in Resources */,
+				69B29CC11BC64C48004402F9 /* 射手座9.jpg in Resources */,
+				69B29CC71BC64C48004402F9 /* 双鱼座12.jpg in Resources */,
+				69B29CD01BC64C48004402F9 /* 天平座7.jpg in Resources */,
+				69B29CB81BC64C48004402F9 /* 金牛座2.jpg in Resources */,
+				69B29CCD1BC64C48004402F9 /* 水瓶座11.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69B29C521BC61B04004402F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B29C611BC61B04004402F9 /* ViewController.m in Sources */,
+				69B29C941BC64A4A004402F9 /* HYBBookCell.m in Sources */,
+				69B29C8F1BC61C27004402F9 /* HYBBookEffectLayout.m in Sources */,
+				69B29C5E1BC61B04004402F9 /* AppDelegate.m in Sources */,
+				69B29C5B1BC61B04004402F9 /* main.m in Sources */,
+				69B29C991BC64C05004402F9 /* HYBBookCollectionView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B29C6B1BC61B04004402F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B29C951BC64A4A004402F9 /* HYBBookCell.m in Sources */,
+				69B29C741BC61B04004402F9 /* CollectionViewBookEffectTests.m in Sources */,
+				69B29C901BC61C27004402F9 /* HYBBookEffectLayout.m in Sources */,
+				69B29C9A1BC64C05004402F9 /* HYBBookCollectionView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69B29C761BC61B04004402F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B29C961BC64A4A004402F9 /* HYBBookCell.m in Sources */,
+				69B29C7F1BC61B04004402F9 /* CollectionViewBookEffectUITests.m in Sources */,
+				69B29C911BC61C27004402F9 /* HYBBookEffectLayout.m in Sources */,
+				69B29C9B1BC64C05004402F9 /* HYBBookCollectionView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69B29C711BC61B04004402F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69B29C551BC61B04004402F9 /* CollectionViewBookEffect */;
+			targetProxy = 69B29C701BC61B04004402F9 /* PBXContainerItemProxy */;
+		};
+		69B29C7C1BC61B04004402F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69B29C551BC61B04004402F9 /* CollectionViewBookEffect */;
+			targetProxy = 69B29C7B1BC61B04004402F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69B29C621BC61B04004402F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69B29C631BC61B04004402F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69B29C671BC61B04004402F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69B29C681BC61B04004402F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69B29C811BC61B04004402F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		69B29C821BC61B04004402F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69B29C841BC61B04004402F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CollectionViewBookEffect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangyibiao.CollectionViewBookEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69B29C851BC61B04004402F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CollectionViewBookEffect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangyibiao.CollectionViewBookEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		69B29C871BC61B04004402F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CollectionViewBookEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangyibiao.CollectionViewBookEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollectionViewBookEffect.app/CollectionViewBookEffect";
+			};
+			name = Debug;
+		};
+		69B29C881BC61B04004402F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CollectionViewBookEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangyibiao.CollectionViewBookEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollectionViewBookEffect.app/CollectionViewBookEffect";
+			};
+			name = Release;
+		};
+		69B29C8A1BC61B04004402F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CollectionViewBookEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangyibiao.CollectionViewBookEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CollectionViewBookEffect;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		69B29C8B1BC61B04004402F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CollectionViewBookEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangyibiao.CollectionViewBookEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CollectionViewBookEffect;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69B29C511BC61B04004402F9 /* Build configuration list for PBXProject "CollectionViewBookEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B29C811BC61B04004402F9 /* Debug */,
+				69B29C821BC61B04004402F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69B29C831BC61B04004402F9 /* Build configuration list for PBXNativeTarget "CollectionViewBookEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B29C841BC61B04004402F9 /* Debug */,
+				69B29C851BC61B04004402F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69B29C861BC61B04004402F9 /* Build configuration list for PBXNativeTarget "CollectionViewBookEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B29C871BC61B04004402F9 /* Debug */,
+				69B29C881BC61B04004402F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69B29C891BC61B04004402F9 /* Build configuration list for PBXNativeTarget "CollectionViewBookEffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69B29C8A1BC61B04004402F9 /* Debug */,
+				69B29C8B1BC61B04004402F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69B29C4E1BC61B04004402F9 /* Project object */;
+}
